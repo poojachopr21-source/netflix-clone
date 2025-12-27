@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        .img{
+            background-image: url(https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+            height: 715px;
+            padding: 50px;
+        
+        }
+        .logo{
+            margin-left: 10px;
+            font-family: fantasy;
+            color: red;
+            font-size: 50px;
+        }
+        .box{
+            background-color: black;
+            border-radius: 6px;
+            width: 436px;
+            height: 636px;
+            margin: auto;
+            background: #000000a3;
+
+        }
+        h1{
+            color: white;
+            padding:  20px;
+        }
+        .num input{
+            width: 330px;
+            border: 1px solid #ffffff75;
+            background: #000000a3;
+            padding: 15px;
+            margin-left: 10px;
+
+        }
+        .pas input{
+            width: 330px;
+            border: 1px solid #ffffff75;
+            background: #000000a3;
+            padding: 15px;
+            margin-left: 10px;
+            margin-top: 20px;
+            color: white;
+
+        }
+        button{
+            background-color: red;
+            color: white;
+            border-radius: 2px;
+            border: none;
+            width: 362px;
+            margin-top: 20px;
+            height: 30px;
+            font-size: 15px;
+            margin: 10px;
+        }
+        button:hover{
+            background-color:crimson;
+        }
+        .or{
+            text-align: center;
+            color: gray;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .code button{
+            background-color:#343535;
+            color: white;
+            border-radius: 2px;
+            border: none;
+            width: 362px;
+            margin-top: 20px;
+            height: 30px;
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        .code button:hover{
+            background-color:rgb(83, 80, 80);
+        }
+    
+        
+        a{
+            color: white;
+        }
+        .get {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 25px;
+        }
+        .get a:hover{
+            color: gray;
+        }
+        .rem input{
+            border: 1px solid #ffffff75;
+            background: #000000a3;
+            margin-top: 20px;
+            color: white;
+
+
+        }
+        .rem a{
+            text-decoration: none;
+        }
+        .rem a:hover{
+            text-decoration: underline;
+        }
+        .rem p{
+            color: #f0e1e1de;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .rem h3{
+            color: white;
+            margin-left: 20px;
+            margin-top: -21px;
+            font-size: 20px;
+        }
+        .link a{
+            margin-left: 10px;
+            color: blue;
+            font-size: 20px;
+        }
+        .background{
+            background-color: black;
+            height: 300px;
+            padding: 42px;
+        }
+        h2{
+            color: white;
+            font-size: 20px;
+        }
+        .background ul li{
+            float: left;
+            padding: 26px;
+        }
+
+        @media(min-width:320px) and (max-width:420px)
+        {
+            .img{
+                width: 100%;
+            }
+            .logo
+            {
+                margin-left: -40px;
+    font-family: fantasy;
+    color: red;
+    font-size: 35px;
+    margin-top: -30px;
+            }
+            .box{
+                border-radius: 17px;
+    width: 518px;
+    height: 816px;
+    background: #000000a3;
+    margin-left: -49px;
+    margin-top: -62px;
+            }
+              h1{
+                color: white;
+    padding: 60px;
+    /* margin-left: 40px; */
+    font-size: 46px;
+    margin-left: -56px;
+
+              }
+              .num input{
+                width: 449px;
+    border: 1px solid #ffffff75;
+    background: #000000a3;
+    padding: 25px;
+    margin-left: 10px;
+              }
+              .pas input{
+                width: 459px;
+    border: 1px solid #ffffff75;
+    background: #000000a3;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+              }
+              button{
+                background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 498px;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 23px;
+    margin: 10px;
+              }
+              .code button{
+                background-color: #343535;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 496px;
+    margin-top: 20px;
+    height: 57px;
+    font-size: 19px;
+    margin-left: 10px;
+              }
+              .background{
+                background-color: black;
+    height: 300px;
+    padding: 42px;
+    width: 437px;
+              }
+
+            }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="img">
+        <div class="logo">NETFLIX</div>
+        <div class="box">
+            <h1> Sign in</h1>
+        <form>
+            <div class="num">
+            <input type="text" placeholder="E-mail or mobile number">
+            </div>
+            <div class="pas">
+                <input type="password" placeholder="password">
+            </div>
+            <div class="sign">
+            <button type="submit">Sign In</button>
+            </div>
+            <div class="or">OR</div>
+            <div class="code">
+                <button type="submit">Use a Sign-in code</button>
+            </div>
+            <div class="get">
+            <a href="#">Forget password?</a>
+            </div>
+            <div class="rem">
+                <input type="checkbox"><h3>Remember me</h3>
+                <p>New to Netflix? <a href="#">Sign up Now</a></p>
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+            </div>
+            <div class="link">
+            <a href="#">Link here</a>
+            </div>
+        </form>
+        </div>
+    </div>
+    <div class="background">
+        <h2>Questions? Call 000-800-919-1743 (Toll-Free)</h2>
+        <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">help center</a></li>
+            <li><a href="#">Terms of us</a></li>
+            <li><a href="#">privacy</a></li>
+            <li><a href="#">Cookies proference</a></li>
+            <li><a href="#">Corportion information</a></li>
+        </ul>
+    </div>
+    
+
+</body>
+</html>
